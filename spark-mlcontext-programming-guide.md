@@ -58,7 +58,7 @@ pyspark --executor-memory 4G --driver-memory 4G --jars SystemDS.jar --driver-cla
 
 ## Create MLContext
 
-All primary classes that a user interacts with are located in the `org.apache.sysml.api.mlcontext` package.
+All primary classes that a user interacts with are located in the `org.apache.sysds.api.mlcontext` package.
 For convenience, we can additionally add a static import of `ScriptFactory` to shorten the syntax for creating `Script` objects.
 An `MLContext` object can be created by passing its constructor a reference to the `SparkSession` (`spark`) or `SparkContext` (`sc`).
 If successful, you should see a "`Welcome to Apache SystemDS!`" message.
